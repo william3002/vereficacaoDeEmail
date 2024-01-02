@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto1';
+    src: url('assets/fonts/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+
+main {
+    background-color: white;
+    width: 850px;
+    margin: auto;
+    margin-top: 85px;
+}
+
+.texto {
+    padding: 47px 50px 45px 50px;
+}
+
+h1 {
+    font-family: 'Roboto1';
+    font-size: 57px;
+}
+
+h6 {
+    padding-right: 11px;
+}
+
+.circle-check {
+    width: 17px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+
+input {
+    height: 50px;
+    padding: 10px 20px;
+}
+
+input:hover {
+    cursor: grab;
+}
+
+
+img {
+    width: 350px;
+}
+
+
+#mensagem-sucesso {
+    width: 400px;
+    margin-top: 140px;
+    background-color: white;
+    border-radius: 9%;
+}
+
+#mensagem-sucesso>h1 {
+    font-weight: bold
+}
+
+#mensagem-sucesso>img {
+    width: 60px;
+}
+
+span {
+    font-weight: bold
+}
+
